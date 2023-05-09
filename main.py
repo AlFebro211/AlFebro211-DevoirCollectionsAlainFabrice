@@ -200,4 +200,7 @@ print("voici le dictionnaire apres l'ajout d'un element:")
 Dictionnaire["age"] = "25"
 for i in Dictionnaire:
     print(i)
-    
+
+#------8-------creer une copie d'un dictionnaire :
+ala = Dictionnaire.copy()
+print('voici la copie de mon dict :',ala) 
