@@ -81,3 +81,4 @@ del liste_elmnt
 print('liste supprimée avec succes')
 
 
+# ----------------QUESTION II----------------------------------------------
