@@ -135,3 +135,9 @@ print("voici la liste de mon set apres avoir ajouter un element:")
 for i in st :
     print(i)
 
+#----3---supprimer un element :
+
+st.remove("costume")
+print("voici la liste de mon set apres avoir supprimer un element:")
+for i in st :
+    print(i)
