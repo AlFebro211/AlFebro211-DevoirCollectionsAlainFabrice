@@ -148,3 +148,6 @@ print('voici le set supprimer :')
 while st:
     st.discard(max(st))
 print(st)
+
+
+# ----------------QUESTION IV-------------------------------------
