@@ -29,3 +29,11 @@ for elt in liste_elmnt:
        liste_2.append(elt)
 for i in liste_2:
     print(i)
+
+
+#----4------ : ajout d'un element a la fin d'une liste:
+print('4: ajout_element a la fin :')
+liste_elmnt.insert(11,'lion') 
+for i in liste_elmnt:
+    print(i)
+    
