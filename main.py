@@ -117,3 +117,5 @@ tupl = tupl[:3] +(50,)
 
 #----6----affiche la nouvelle tuplet apres l'ajput ------------------------ :
 print(tupl)
+
+# ----------------QUESTION III----------------------
