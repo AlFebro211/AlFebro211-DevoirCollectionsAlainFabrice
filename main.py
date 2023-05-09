@@ -110,3 +110,7 @@ print("voici l'element ajouter a la fin du tuplet :")
 tupl = tupl + (4,)
 print(tupl)
  
+#----5----Ajouter un element a l'index 3 ------------------------ :
+
+print('voici la liste apres ajout d_un element a l_index numero 3:')
+tupl = tupl[:3] +(50,)
