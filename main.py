@@ -128,3 +128,9 @@ print("voici la liste de mon set :")
 for i in st :
     print(i)
 
+# ----2---ajouter un element :
+
+st.add('chaussure')
+print("voici la liste de mon set apres avoir ajouter un element:")
+for i in st :
+    print(i)
