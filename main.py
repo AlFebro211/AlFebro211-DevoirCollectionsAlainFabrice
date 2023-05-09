@@ -204,3 +204,5 @@ for i in Dictionnaire:
 #------8-------creer une copie d'un dictionnaire :
 ala = Dictionnaire.copy()
 print('voici la copie de mon dict :',ala) 
+
+#--------------------*******-------------------------------------------------------
