@@ -42,3 +42,10 @@ print('5: ajout_element a index numero 2: ')
 liste_elmnt.insert(2,'jaguar')
 for j in liste_elmnt:
     print(j)
+    
+
+#----6------ : suppression d'un element numero 3:
+print('6: suppression element numero 3 :')
+del liste_elmnt[3]
+for i in liste_elmnt:
+    print(i)
