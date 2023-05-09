@@ -62,4 +62,10 @@ print('8: voici la liste ordonnée :')
 liste_elmnt.sort()
 for i in liste_elmnt:
     print(i)
+    
+#----9----afficher le sens inverse la liste------------:
+print("9: voici la liste inverse par rapport oau precedent resultat :")
+liste_elmnt.reverse()
+for i in liste_elmnt:
+    print(i)
 
