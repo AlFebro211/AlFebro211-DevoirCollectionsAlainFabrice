@@ -134,3 +134,4 @@ st.add('chaussure')
 print("voici la liste de mon set apres avoir ajouter un element:")
 for i in st :
     print(i)
+
