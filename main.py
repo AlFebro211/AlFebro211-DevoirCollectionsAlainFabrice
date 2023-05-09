@@ -55,4 +55,11 @@ print('7: suppression index numero 2 :')
 del liste_elmnt[2]
 for i in liste_elmnt:
     print(i)
-    
+
+
+#----8---------------------------- : ordonner la  liste:
+print('8: voici la liste ordonnée :')
+liste_elmnt.sort()
+for i in liste_elmnt:
+    print(i)
+
