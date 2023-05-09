@@ -102,3 +102,11 @@ print("voici l'element ",tupl[5])
 
 ordonn = sorted(tupl)
 print('voici le tuplet ordonné :', ordonn)
+
+
+#----4----Ajouter un element a la fin de la ligne ------------------------ :
+
+print("voici l'element ajouter a la fin du tuplet :")
+tupl = tupl + (4,)
+print(tupl)
+ 
