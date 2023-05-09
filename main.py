@@ -49,3 +49,10 @@ print('6: suppression element numero 3 :')
 del liste_elmnt[3]
 for i in liste_elmnt:
     print(i)
+    
+#----7------ : suppression l'index numero 2:
+print('7: suppression index numero 2 :')
+del liste_elmnt[2]
+for i in liste_elmnt:
+    print(i)
+    
