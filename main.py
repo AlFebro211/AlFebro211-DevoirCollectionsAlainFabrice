@@ -184,4 +184,8 @@ for i in Dictionnaire.values():
 print("-------4-- affichage la cle et sa valeur correspondante d'un dictionnaire :")
 for cle,valeur in Dictionnaire.items():
     print("cle est :",cle,"et la valeur correspondante est :",valeur)
-        
+  
+# -------5-----supprimer l'element a la cle numero 2:
+print("voici le dictionnaire apres la suppression")
+Dictionnaire.pop("adresse")
+print(Dictionnaire)      
