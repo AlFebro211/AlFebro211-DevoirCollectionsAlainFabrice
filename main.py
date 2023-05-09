@@ -141,3 +141,10 @@ st.remove("costume")
 print("voici la liste de mon set apres avoir supprimer un element:")
 for i in st :
     print(i)
+
+#---4---supprimer un set :
+
+print('voici le set supprimer :')
+while st:
+    st.discard(max(st))
+print(st)
