@@ -194,3 +194,10 @@ print(Dictionnaire)
 
 numero_5 = Dictionnaire["taille"]
 print("le numero 5 de mon dictionnaire a comme valeur :",numero_5,'cm')    
+
+#-------7-------ajouter un nouvel element:
+print("voici le dictionnaire apres l'ajout d'un element:")
+Dictionnaire["age"] = "25"
+for i in Dictionnaire:
+    print(i)
+    
