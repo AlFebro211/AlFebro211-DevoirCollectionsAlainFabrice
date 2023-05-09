@@ -75,3 +75,9 @@ liste_elmnt.clear()
 print(liste_elmnt)
 
 
+#----11----supprimer la liste------------------------------- :
+print ('11: voici la suppresion de la liste :')
+del liste_elmnt
+print('liste supprimée avec succes')
+
+
