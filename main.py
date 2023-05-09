@@ -114,3 +114,6 @@ print(tupl)
 
 print('voici la liste apres ajout d_un element a l_index numero 3:')
 tupl = tupl[:3] +(50,)
+
+#----6----affiche la nouvelle tuplet apres l'ajput ------------------------ :
+print(tupl)
