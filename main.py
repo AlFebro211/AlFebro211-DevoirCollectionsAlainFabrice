@@ -151,3 +151,19 @@ print(st)
 
 
 # ----------------QUESTION IV-------------------------------------
+
+Dictionnaire = {'nom':'nday',
+                'prenom':'ala',
+                'adresse':'carama',
+                'email':'ala@gamail.com',
+                'telephone':'122333',
+                'taille':'1.89cm',
+                'profession ':'etudiant',
+                'nom_universite':'ULT',
+                'Faculte':'info',
+                'Departement':'GL'}
+
+# -------1-- affichage d'un dictionnaire:
+print("-------1-- affichage d'un dictionnaire")
+for i in Dictionnaire.items():
+    print(i)
