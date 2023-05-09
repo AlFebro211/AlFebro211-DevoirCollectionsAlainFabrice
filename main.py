@@ -82,3 +82,14 @@ print('liste supprimée avec succes')
 
 
 # ----------------QUESTION II----------------------------------------------
+
+#----1----afficher le nombre de fois le chiffre 3 apparait_t_il------------------------------- :
+tupl = (1,2,3,3,4,5,3,7,8,9)
+nbre_fois_3 = 0
+check_3 =tupl[0]
+print('voici mon tuplet :',tupl)
+for i in range(len(tupl)):
+    chiffre_3 =tupl[i]
+    if chiffre_3 == 3:
+        nbre_fois_3 +=1
+print("voici le nombre de fois qu'apparait le chiffre 3 :",nbre_fois_3,"fois")
