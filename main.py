@@ -119,3 +119,12 @@ tupl = tupl[:3] +(50,)
 print(tupl)
 
 # ----------------QUESTION III----------------------
+
+st = {'chemise','robe','culotte','wax','maillot','blancket','pantalo','cravate','costume','foullard'}
+
+# ----1---afficher  un  set :
+
+print("voici la liste de mon set :")
+for i in st :
+    print(i)
+
