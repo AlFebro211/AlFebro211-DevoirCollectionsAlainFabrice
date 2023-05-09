@@ -188,4 +188,9 @@ for cle,valeur in Dictionnaire.items():
 # -------5-----supprimer l'element a la cle numero 2:
 print("voici le dictionnaire apres la suppression")
 Dictionnaire.pop("adresse")
-print(Dictionnaire)      
+print(Dictionnaire)  
+
+# ------6-------afficher la valeur numero 5 :
+
+numero_5 = Dictionnaire["taille"]
+print("le numero 5 de mon dictionnaire a comme valeur :",numero_5,'cm')    
