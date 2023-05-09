@@ -93,3 +93,7 @@ for i in range(len(tupl)):
     if chiffre_3 == 3:
         nbre_fois_3 +=1
 print("voici le nombre de fois qu'apparait le chiffre 3 :",nbre_fois_3,"fois")
+
+#----2----afficher le contenu de l'element numero 5------------------------------- :
+
+print("voici l'element ",tupl[5])
