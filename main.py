@@ -68,4 +68,10 @@ print("9: voici la liste inverse par rapport oau precedent resultat :")
 liste_elmnt.reverse()
 for i in liste_elmnt:
     print(i)
+    
+#----10----vider la liste------------------------------- :
+print("10: voici la liste vide :")
+liste_elmnt.clear()
+print(liste_elmnt)
+
 
