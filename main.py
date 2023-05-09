@@ -178,4 +178,10 @@ for i in Dictionnaire.keys():
 print("-------3-- affichage les valeurs d'un dictionnaire :")
 for i in Dictionnaire.values():
     print(i)
-       
+
+# -------4-- affichage la cle et la valeur correspondante d'un dictionnaire : 
+
+print("-------4-- affichage la cle et sa valeur correspondante d'un dictionnaire :")
+for cle,valeur in Dictionnaire.items():
+    print("cle est :",cle,"et la valeur correspondante est :",valeur)
+        
