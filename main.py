@@ -205,4 +205,9 @@ for i in Dictionnaire:
 ala = Dictionnaire.copy()
 print('voici la copie de mon dict :',ala) 
 
+
+#------9-------creer une copie d'un dictionnaire :
+print('voici le nouveau  dictionnaire :')
+for i in Dictionnaire.items():
+    print(i)
 #--------------------*******-------------------------------------------------------
